@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    line-height: 1.5;
+}
+
+.container-header {
+    width: 90%;
+    margin: auto;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 8vh;
+}
+
+#logo a {
+    color: #111111;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.main-menu {
+    display: flex;
+    align-items: center;
+}
+
+.main-menu li {
+    margin-left: 30px;
+}
+
+.main-menu li a {
+    color: #111111;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.main-menu li:hover {
+    border-bottom: 1px solid #111111;
+}
+
+/* Design Form */
+.box {
+    width: 520px;
+    height: 500px;
+    background-color: #dfe6e9;
+    padding: 25px;
+    border-radius: 3px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    overflow: auto;
+    max-width: calc(100vw - 10%);
+}
+
+.form {
+    min-width: 400px;
+}
+
+.form-title {
+    text-align: center;
+    margin-bottom: 19px;
+    font-size: 2em;
+}
+
+/* Error */
+.error-block {
+    padding: 7px;
+    width: 100%;
+    background: #ffb9c5;
+    color: #721121;
+    border-radius: 3px;
+    margin-bottom: 16px;
+    display: none;
+}
+
+.error {
+    font-size: 1.1em;
+}
+.success {
+    background: #c1ffb9;
+    color: #16790d;
+}
+.input-block {
+    text-align: center;
+}
+.label {
+    display: block;
+    margin-top: 8px;
+    font-size: 1.1em;
+    text-align: left;
+}
+.input-info {
+    text-align: left;
+    margin-top: -18px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    color: #888;
+}
+
+.input {
+    width: 100%;
+    border-radius: 3px;
+    font-size: 1.1em;
+    padding: 6px 10px;
+    border: 1px solid #cccccc;
+    color: #1d1d1d;
+    margin-bottom: 7px;
+    outline: none;
+}
+
+.input-submit {
+    margin-top: 6px;
+    padding: 8px 20px;
+    border: none;
+    font-size: 1.1em;
+    background: #258bad;
+    color: #fff;
+    border-radius: 3px;
+    outline: none;
+    transition: 0.15s ease-in-out background;
+    cursor: pointer;
+}
+
+.input-submit:hover {
+    background: #24a4cf;
+}
+
